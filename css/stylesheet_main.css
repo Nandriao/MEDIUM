@@ -5,15 +5,17 @@ main{
 .seccao_principal{
     max-width: 90%;
     margin: auto;
+    /*display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;*/
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 }
 
-.seccao_principal > div {
+.seccao_principal > div{ 
     width: 200px;
-    height: 100px;
+    height: 150px;
     background-color: #666666;
     margin: 10px;
 }
@@ -30,7 +32,6 @@ main > h1{
 }
 
 .seccao_recomendados{
-    max-width: 90%;
     margin: auto;
     display: flex;
     flex-wrap: wrap;
@@ -39,9 +40,10 @@ main > h1{
 }
 
 .seccao_recomendados > div{
-    width: 100px;
+    flex: 0 0 100px;
+    width: 200px;
     height: 60px;
     background-color: #666666;
     margin: 10px;
-    margin-bottom: 30px;
+    margin-bottom: 30px
 }

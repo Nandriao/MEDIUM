@@ -1,0 +1,24 @@
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aquamarine;
+    width: 100%;
+    height: 200px;
+}
+
+.conteudo_do_rodape {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+.div_1 {
+    background-color: bisque;
+    margin-right: 50px;
+}
+
+.div_2 {
+    background-color: beige;
+}

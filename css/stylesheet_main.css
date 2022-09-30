@@ -1,0 +1,47 @@
+main{
+    margin-top: 30px;
+}
+
+.seccao_principal{
+    max-width: 90%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.seccao_principal > div {
+    width: 200px;
+    height: 100px;
+    background-color: #666666;
+    margin: 10px;
+}
+
+main > h1{
+    font-size: 13px;
+    letter-spacing: 1px;
+    color: tomato;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    background-color: aqua;
+
+}
+
+.seccao_recomendados{
+    max-width: 90%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.seccao_recomendados > div{
+    width: 100px;
+    height: 60px;
+    background-color: #666666;
+    margin: 10px;
+    margin-bottom: 30px;
+}

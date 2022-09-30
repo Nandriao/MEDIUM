@@ -2,7 +2,7 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: aquamarine;
+    background-color: #6100FF;
     width: 100%;
     height: 200px;
 }
@@ -15,10 +15,17 @@ footer{
 }
 
 .div_1 {
-    background-color: bisque;
-    margin-right: 50px;
+    color: white;
+    margin-right: 25px;
 }
 
 .div_2 {
-    background-color: beige;
+    margin-top: 20px;
+}
+
+.div_2 > a {
+    display: block;
+    background-color: #00e5fc;
+    margin: 10px;
+    border-radius: 10px;
 }

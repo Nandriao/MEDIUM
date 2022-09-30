@@ -1,47 +1,90 @@
+body{
+    background-color: #2B2360;
+}
+
 main{
     margin-top: 30px;
+    display: flex;
 }
 
 .seccao_principal{
     max-width: 90%;
     margin: auto;
+    /*display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;*/
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
 }
 
-.seccao_principal > div {
+.seccao_principal > div{ 
     width: 200px;
-    height: 100px;
-    background-color: #666666;
+    height: 210px;
+    max-height: 250px;
+    /*background-image: linear-gradient(white, transparent);*/
     margin: 10px;
+    border-radius: 10px;
 }
 
-main > h1{
+.seccao_principal > div > a > img{ 
+    width: 200px;
+    height: 138px;
+    min-width: 100px;
+}
+
+.seccao_principal > div > p{ 
+    margin-top: 5px;
+    text-align: start;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+}
+
+.conteudo_principal {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #0073ff;
+}
+
+.barra_lateral{
+    float: right;
+
+}
+
+.barra_lateral > div > a > img{
+    width: 130px;
+    
+}
+
+h1{
     font-size: 13px;
     letter-spacing: 1px;
-    color: tomato;
+    color: rgb(255, 255, 255);
     text-align: center;
     margin-top: 30px;
     margin-bottom: 10px;
-    background-color: aqua;
+    background-color: #6100FF;
 
 }
 
 .seccao_recomendados{
-    max-width: 90%;
     margin: auto;
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     justify-content: center;
     align-items: center;
+    overflow-x: hidden;
 }
 
 .seccao_recomendados > div{
-    width: 100px;
-    height: 60px;
-    background-color: #666666;
+    flex: 0 0 100px;
+    width: 250px;
+    height: 100px;
     margin: 10px;
-    margin-bottom: 30px;
+    margin-bottom: 30px
+}
+
+.seccao_recomendados > div > a > img{
+    flex: 0 0 100px;
+    width: 140px;
+    height: 100px;
+    border-radius: 10px;
 }

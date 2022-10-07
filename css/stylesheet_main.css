@@ -13,6 +13,8 @@ main{
     /*display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;*/
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
 }
 
@@ -36,22 +38,6 @@ main{
     text-align: start;
     color: rgb(255, 255, 255);
     font-size: 14px;
-}
-
-.conteudo_principal {
-    display: flex;
-    flex-wrap: wrap;
-    background-color: #0073ff;
-}
-
-.barra_lateral{
-    float: right;
-
-}
-
-.barra_lateral > div > a > img{
-    width: 130px;
-    
 }
 
 h1{

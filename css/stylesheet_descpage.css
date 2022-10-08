@@ -1,0 +1,46 @@
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.seccao_de_descricao{
+    max-width: 100vh;
+    text-align: center;
+}
+
+.seccao_de_descricao > p {
+    color: white;
+    text-align: justify;
+}
+
+.seccao_de_descricao > h2 {
+    color: white;
+    margin-bottom: 30px;
+}
+
+.capa > img {
+    width: 100vh;
+    height: 60vh;
+    font-size: 14px;
+}
+
+.trailler {
+    width: 100vh;
+    height: 60vh;
+    margin-top: 60px;
+    background-color: rgb(94, 94, 94);
+}
+
+.btn_download {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.btn_download > a{
+    font-weight: bold;
+    color: rgb(55, 55, 55);
+    background-color: #00e5fc;
+    border-radius: 10px;
+    padding: 10px;
+}

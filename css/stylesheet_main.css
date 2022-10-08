@@ -33,7 +33,7 @@ main{
     min-width: 100px;
 }
 
-.seccao_principal > div > p{ 
+.seccao_principal > div > a > p{ 
     margin-top: 5px;
     text-align: start;
     color: rgb(255, 255, 255);

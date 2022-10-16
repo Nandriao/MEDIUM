@@ -1,2 +1,2 @@
-# Projecto_MEDIUM
+# MEDIUM
  Produção do Site de Divulgação de Midia
